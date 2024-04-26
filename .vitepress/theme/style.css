@@ -49,10 +49,21 @@
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: var(--vp-c-indigo-1);
-  --vp-c-brand-2: var(--vp-c-indigo-2);
-  --vp-c-brand-3: var(--vp-c-indigo-3);
-  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+  --vp-c-blue-1: #49a4ff;
+  --vp-c-blue-2: #0a7dfc;
+  --vp-c-blue-3: #006ddc;
+  --vp-c-blue-1-border: rgba(73, 164, 255, 0.6);
+  --vp-c-blue-2-border: rgba(10, 125, 252, 0.6);
+  --vp-c-blue-3-border: rgba(0, 109, 220, 0.6);
+  --vp-c-blue-soft: rgba(73, 164, 255, 0.1);
+
+  --vp-c-green-1-border: rgba(42, 255, 42, 0.4);
+  --vp-c-green-2-border: rgba(0, 255, 0, 0.4);
+
+  --vp-c-brand-1: var(--vp-c-blue-1);
+  --vp-c-brand-2: var(--vp-c-blue-2);
+  --vp-c-brand-3: var(--vp-c-blue-3);
+  --vp-c-brand-soft: var(--vp-c-blue-soft);
 
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
@@ -92,16 +103,17 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
+  --vp-button-alt-border: var(--vp-c-border);
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #bd34fe 30%,
-    #41d1ff
+    #1789ff 20%,
+    #75baff
   );
 
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    #bd34fe 50%,
-    #47caff 50%
+    rgba(0, 126, 255, 0.2) 50%,
+    rgba(73, 164, 255, 0.2)
   );
   --vp-home-hero-image-filter: blur(44px);
 }
@@ -137,3 +149,37 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+.pro {
+ display: inline-block;
+ border-radius: 4px;
+ padding: 0 6px;
+ margin-right: 2px;
+ background-color: var(--vp-c-blue-soft);
+ color: var(--vp-c-blue-1);
+ border: 1px solid var(--vp-c-blue-2-border);
+ transition: 0.25s;
+ cursor: pointer;
+ user-select: none;
+}
+
+.pro:hover {
+ border-color: var(--vp-c-blue-1-border);
+}
+
+.dev {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 0 6px;
+    margin-right: 2px;
+    background-color: var(--vp-c-green-soft);
+    color: var(--vp-c-green-1);
+    border: 1px solid var(--vp-c-green-2-border);
+    transition: 0.25s;
+    cursor: pointer;
+    user-select: none;
+}
+
+article.box strong {
+ font-weight: bold;
+ color: var(--vp-c-text-1);
+}
