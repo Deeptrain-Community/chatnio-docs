@@ -21,7 +21,7 @@ hero:
       link: https://chatnio.net
     - theme: alt
       text: 开发者资源
-      link: /resources/
+      link: /developers/
 
 features:
   - title: 🤖️ 丰富模型支持

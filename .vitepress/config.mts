@@ -19,15 +19,16 @@ export default defineConfig({
     },
     nav: [
       { text: '主页', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '文档', link: '/guide/' },
+      { text: 'API', link: '/developers/' },
+      { text: '商业版咨询', link: '/pro/' },
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '快速开始',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '快速开始', link: '/markdown-examples' },
         ]
       }
     ],
