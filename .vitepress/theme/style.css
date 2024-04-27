@@ -155,7 +155,7 @@
  padding: 0 6px;
  margin-right: 2px;
  background-color: var(--vp-c-blue-soft);
- color: var(--vp-c-blue-1);
+ color: var(--vp-c-blue-1) !important;
  border: 1px solid var(--vp-c-blue-2-border);
  transition: 0.25s;
  cursor: pointer;
@@ -172,7 +172,7 @@
     padding: 0 6px;
     margin-right: 2px;
     background-color: var(--vp-c-green-soft);
-    color: var(--vp-c-green-1);
+    color: var(--vp-c-green-1) !important;
     border: 1px solid var(--vp-c-green-2-border);
     transition: 0.25s;
     cursor: pointer;
@@ -181,5 +181,21 @@
 
 article.box strong {
  font-weight: bold;
+ color: var(--vp-c-text-1);
+}
+
+article.box .title .pro {
+ margin-left: 2px;
+}
+
+.VPFeature:hover {
+ border-color: var(--vp-c-border);
+}
+
+.VPFeature * {
+ transition: 0.25s;
+}
+
+.VPFeature:hover * {
  color: var(--vp-c-text-1);
 }
