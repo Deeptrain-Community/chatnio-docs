@@ -47,9 +47,38 @@ features:
   - title: 🖥 多端支持
     details: 支持 Web / PWA / App 三端, UI 移动端适配, 支持明暗主题切换, 国际化支持 (多语言切换) <br> 支持 Windows / MacOS / Linux / Android / iOS App <br><br> <div class="pro">商业版</div> 支持 Web / PWA / App / 小程序 四端
   - title: ✔️ 站点管理
-    details: 内置 SEO 优化, 支持自定义站点 Logo / 站点名称 / 站点描述 / 页脚信息 / 联系方式等, 支持设置用户初始点数, 支持站点公告 / 通知功能, 支持设置 SMTP 发件。 <br><br> <div class="pro">商业版</div> 支持设置 Google Analytics 等统计服务 / 支持上传 Logo
+    details: 内置 SEO 优化, 支持自定义站点 Logo / 站点名称 / 页脚 / 联系方式等, 支持设置用户初始点数, 支持站点公告 / 通知功能, 支持设置 SMTP 发件。 <br><br> <div class="pro">商业版</div> 支持设置 Google Analytics 等统计服务 / 支持上传 Logo
   - title: 💸 支付管理 <div class="pro">商业版</div>
-    details: 支持易支付, 支持聚合支付 / 支付类型设定, 支持同步检查订单状态, 支持订单记录管理, 支持搜索订单 (开源版仅支持发卡)。 <br><br> <div class="dev">开发中</div> 支持官方微信 / 支付宝 / Stripe / 虎皮椒等支付方式
+    details: 支持易支付和聚合支付, 支持同步检查订单状态, 支持订单搜索和管理 (开源版仅支持发卡)。 <br><br> <div class="dev">开发中</div> 支持官方微信 / 官方支付宝 / 官方 Stripe 等支付方式
+  - title: 📄 安全审核 <div class="pro">商业版</div>
+    details: 提供多种审核模式, 支持文本词库 / 正则 / 百度审核等安全审核方式, 支持特定模型审核，提供安全的体验。
+  - title: 🗂 调用日志 <div class="pro">商业版</div>
+    details: 支持调用日志记录, 支持参数筛选, 支持图表数据统计, 支持追溯调用来源 (本次调用的全部渠道历史), 支持存储 Prompt (可选开启)。
+  - title: 🎨 绘画面板 <div class="pro">商业版</div>
+    details: 支持 Midjourney Proxy Plus, 支持 Imagine / Upscale / Vary / Zoom Out 等众多功能， 支持 Seed 获取。 <br><br> <div class="dev">开发中</div> 支持 Midjourney Proxy (Plus) 格式中转 / 支持局部重绘 (Vary Region)
+  - title: 👋 第三方登录 <div class="pro">商业版</div> <div class="dev">开发中</div>
+    details: 支持第三方登录, 如微信 / QQ / Google / GitHub 等第三方账号登录。
   - title: 🧩 插件市场 <div class="pro">商业版</div> <div class="dev">开发中</div>
-    details: 支持插件市场 (基于 Function Calling), 内置 联网搜索 / 天气查询 等插件, 支持插件管理 <br><br> 支持开发插件 HTTP / Python / Node.js / PHP / Java / Go 等运行时。
+    details: 支持插件市场 (基于 Function Calling) <br><br> 支持开发插件 HTTP / Python / Node.js / PHP / Java / Go 等运行时。
+  - title: 📡 模型监控 <div class="pro">商业版</div> <div class="dev">开发中</div>
+    details: 支持内置模型可用性监控, 类似于 Uptime Kuma, 支持设置模型监控频率, 支持设置模型监控报警，支持分组监控。
+  - title: ✈ 速率设置 <div class="pro">商业版</div> <div class="dev">开发中</div>
+    details: 支持设置模型速率限制 (类似于 OpenAI), 支持设置节流类型 并发任务 / RPM 每分钟请求数 / RPH 每小时请求数 / RPD 每天请求数), 支持设置用户分组速率。 
+  - title: 📣 推广奖励 <div class="pro">商业版</div> <div class="dev">开发中</div>
+    details: 支持推广奖励 (单次奖励 / 利润分销), 支持设置推广奖励比例和推广大使等级比例。<br>支持划转余额, 支持推广排行榜, 支持设置提现门槛选项。
+  - title: 📦 资源包 <div class="pro">商业版</div> <div class="dev">开发中</div>
+    details: 支持资源包计费模式，支持自定义价格 / 有效期 / 积分配额 / 涵盖模型等配置。介于弹性计费和订阅计划之间的计费模式，支持更灵活和更细致化的计费方式。
+  - title: 📅 自动任务 <div class="pro">商业版</div> <div class="dev">开发中</div>
+    details: 支持自动化任务, 支持设置触发器和动作, 支持设置任务执行频率和延迟防抖, 支持设置任务执行时间, 支持设置任务执行条件。 (适用场景示例：AutoDL GPU 服务器自动休眠)
+  - title: 👂 语音识别 & TTS <div class="pro">商业版</div> <div class="dev">开发中</div>
+    details: 支持 OpenAI / Azure 等语音识别 & TTS 模型，支持 Whisper & TTS 格式中转。
+  - title: 📞 短信登录 <div class="pro">商业版</div> <div class="dev">开发中</div>
+    details: 支持短信登录, 支持设置短信登录模板 / 速率限制等自定义设置。
+  - title: 📝 板块添加 <div class="pro">商业版</div> <div class="dev">开发中</div>
+    details: 支持添加自定义板块嵌入网站页面, 支持设置板块图标，使站点更加丰富多样。
+  - title: 📈 数据统计
+    details: 丰富美观的仪表盘统计，支持模型请求统计 / 收入统计 / 用户类型分析 等多种统计图表。
+  - title: 🌮 更多功能
+    details: 更多功能等待你的发现！点击前往<a class="home-link" href="https://go-pro.chatnio.net">商业版演示站点</a>体验更多功能。
+    link: https://go-pro.chatnio.net
 ---

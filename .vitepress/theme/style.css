@@ -199,3 +199,18 @@ article.box .title .pro {
 .VPFeature:hover * {
  color: var(--vp-c-text-1);
 }
+
+.home-link {
+ color: var(--vp-c-blue-1) !important;
+ text-decoration: underline;
+ text-decoration-color: var(--vp-c-blue-1);
+ text-underline-offset: 4px;
+
+ margin: 0 2px;
+ transition: 0.25s;
+}
+
+.home-link:hover {
+ color: var(--vp-c-blue-2) !important;
+ text-decoration-color: var(--vp-c-blue-2);
+}
