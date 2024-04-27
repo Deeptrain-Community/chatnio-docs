@@ -214,3 +214,7 @@ article.box .title .pro {
  color: var(--vp-c-blue-2) !important;
  text-decoration-color: var(--vp-c-blue-2);
 }
+
+.vp-doc table td p {
+ margin: 0;
+}

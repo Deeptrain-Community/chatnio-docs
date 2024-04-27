@@ -20,6 +20,7 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '文档', link: '/guide/' },
+      { text: '价格', link: '/guide/pricing'},
       { text: 'API', link: '/developers/' },
       { text: '商业版咨询', link: '/pro/' },
     ],
