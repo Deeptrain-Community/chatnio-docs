@@ -3,6 +3,8 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
+import GithubProject from "./components/GithubProject.vue";
+import PageLink from "./components/PageLink.vue";
 
 export default {
   extends: DefaultTheme,
@@ -12,6 +14,7 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component('GithubProject', GithubProject)
+    app.component('PageLink', PageLink)
   }
 } satisfies Theme

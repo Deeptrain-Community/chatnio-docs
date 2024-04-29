@@ -218,3 +218,7 @@ article.box .title .pro {
 .vp-doc table td p {
  margin: 0;
 }
+
+.text-gray {
+ color: var(--vp-c-text-2);
+}
