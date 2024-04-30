@@ -79,6 +79,20 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
+
+  --background: var(--vp-c-white);
+  --foreground: var(--vp-c-black);
+  --foreground-hover: rgba(0, 0, 0, 0.8);
+  --border: var(--vp-c-gray-2);
+  --border-hover: var(--vp-c-gray-1);
+}
+
+.dark {
+  --background: var(--vp-c-black);
+  --foreground: var(--vp-c-white);
+  --foreground-hover: rgba(255, 255, 255, 0.8);
+  --border: var(--vp-c-gray-3);
+  --border-hover: var(--vp-c-gray-2);
 }
 
 /**
@@ -130,6 +144,9 @@
   }
 }
 
+html, body {
+ -webkit-tap-highlight-color: transparent;
+}
 /**
  * Component: Custom Block
  * -------------------------------------------------------------------------- */
@@ -221,4 +238,18 @@ article.box .title .pro {
 
 .text-gray {
  color: var(--vp-c-text-2);
+}
+
+.pricing-wrapper {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ gap: 1rem;
+ width: 100%;
+ height: max-content;
+}
+
+@media (max-width: 768px) {
+ .pricing-wrapper {
+  grid-template-columns: 1fr;
+ }
 }
