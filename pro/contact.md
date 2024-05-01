@@ -4,7 +4,7 @@
 
 <div class="pricing-wrapper">
     <PricingBox price="988" :features="['永久使用', '永久更新', '技术支持', '1 节点授权', '1 次远程部署服务']" />
-    <PricingBox price="1288" :features="['永久使用', '永久更新', '技术支持', '3 节点授权', '3 次远程部署服务']" />
+    <PricingBox price="1188" :features="['永久使用', '永久更新', '技术支持', '3 节点授权', '3 次远程部署服务']" />
     <PricingBox price="定制" :features="['定制功能', '定制节点数', '定制部署服务']" :custom="true" />
 </div>
 

@@ -73,6 +73,7 @@ export default defineConfig({
           { text: '产品介绍', link: '/pro/' },
           { text: '产品授权', link: '/pro/license' },
           { text: '授权咨询', link: '/pro/contact' },
+          { text: '成为代理商', link: '/pro/agent' },
         ]
       }
     ],
