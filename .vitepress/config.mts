@@ -65,6 +65,21 @@ export default defineConfig({
         items: [
           { text: '介绍', link: '/guide/' },
           { text: '模型价格', link: '/guide/pricing' },
+          { text: '接入指南', link: '/guide/api' },
+        ]
+      },
+      {
+        text: '开发者资源',
+        items: [
+          { text: '总览', link: '/developers/' },
+          { text: 'OpenAI API', link: '/developers/openai' },
+          { text: 'Chat Nio SDKs', link: '/developers/sdk' },
+          {
+            text: 'API Reference',
+            items: [
+
+            ],
+          },
         ]
       },
       {
@@ -72,10 +87,10 @@ export default defineConfig({
         items: [
           { text: '产品介绍', link: '/pro/' },
           { text: '产品授权', link: '/pro/license' },
-          { text: '授权咨询', link: '/pro/contact' },
+          { text: '授权购买', link: '/pro/contact' },
           { text: '成为代理商', link: '/pro/agent' },
         ]
-      }
+      },
     ],
 
     socialLinks: [

@@ -20,7 +20,7 @@ hero:
       text: 官方站
       link: https://chatnio.net
     - theme: alt
-      text: 开发者资源
+      text: API
       link: /developers/
 
 features:

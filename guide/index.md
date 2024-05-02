@@ -10,6 +10,8 @@
 - [Mahiro 官转站](https://o.chatnio.net): 纯 OpenAI 官方 API 转发站, 稳定、高速。
 
 <PageLink href="/guide/pricing" title="💰 AI 模型价格" />
+<PageLink href="/guide/api" title="🚀 API 接入指南" />
+<PageLink href="/developers/" title="🎈 开发者资源" />
 
 ::: info
 私有化部署版本主要面向意向搭建 AI 平台站长 提供，如你只是想使用 Chat Nio 官方站，可以跳过下面这段内容。
@@ -38,4 +40,5 @@ Chat Nio 以 **Apache-2** 协议开源, 提供一键部署和丰富功能, 适�
 
 （以上为商业版部分功能，更多功能请查看 [商业版功能](/)）
 
-<PageLink href="/pro/" title="✨ 商业版咨询" />
+<PageLink href="/pro/" title="✨ 商业版介绍" />
+<PageLink href="/pro/contact" title="💰 商业版购买" />
