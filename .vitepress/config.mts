@@ -14,7 +14,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/logo.png',
     editLink: {
-      pattern: 'https://github.com/Deeptrain-Community/chatnio.com/edit/main/:path',
+      pattern: 'https://github.com/Deeptrain-Community/chatnio-docs/edit/main/:path',
       text: '在 GitHub 上编辑此页'
     },
     docFooter: {
