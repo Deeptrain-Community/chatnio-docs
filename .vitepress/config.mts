@@ -77,7 +77,10 @@ export default defineConfig({
           {
             text: 'API Reference',
             items: [
-
+              { text: 'Chat 聊天', link: '/developers/api-reference/chat' },
+              { text: 'Conversation 会话', link: '/developers/api-reference/conversation' },
+              { text: 'Quota 点数', link: '/developers/api-reference/quota' },
+              { text: 'Plan 订阅', link: '/developers/api-reference/plan' },
             ],
           },
         ]
