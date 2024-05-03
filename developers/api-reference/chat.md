@@ -17,12 +17,12 @@ WEBSOCKET wss://api.chatnio.net/chat
 
 #### 对话参数
 
-| Name                                      | Type   | Description                                                              |
-|-------------------------------------------|--------|--------------------------------------------------------------------------|
-| message<span style="color:red;">\*</span> | String | 消息                                                                       |
-| model<span style="color:red;">\*</span>   | String | AI 模型 [ai-mo-xing-ji-ji-fei.md](../../ai-mo-xing-ji-ji-fei.md "mention") |
-| web                                       | String | 是否开启联网功能（默认**关闭**）                                                       |
-| type                                      | String | 默认 **chat** 即可, **stop** 为暂停输出, **restart** 为重新回答                        |
+| Name                                      | Type   | Description                                    |
+|-------------------------------------------|--------|------------------------------------------------|
+| message<span style="color:red;">\*</span> | String | 消息                                             |
+| model<span style="color:red;">\*</span>   | String | 模型                                             |
+| web                                       | String | 是否开启联网（默认**关闭**）                               |
+| type                                      | String | **chat** 对话 / **stop** 暂停输出 / **restart** 重新回答 |
 
 #### 流响应结构
 ```json
