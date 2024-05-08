@@ -202,7 +202,7 @@
     </tr>
     <tr>
       <td>midjourney-turbo</td>
-      <td>5 / 次</td>
+      <td>4 / 次</td>
       <td>Turbo 模式 (30 秒内出图)</td>
     </tr>
     <tr>
