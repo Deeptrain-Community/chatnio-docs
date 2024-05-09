@@ -74,9 +74,9 @@
       <td>
         <p>gpt-4-turbo</p>
       </td>
-      <td>1 元 1 刀</td>
-      <td>0.1</td>
+      <td>3 元 1 刀</td>
       <td>0.3</td>
+      <td>0.9</td>
     </tr>
     <tr>
       <td>
