@@ -116,6 +116,14 @@
       <td>-</td>
       <td>1 / 次</td>
     </tr>
+        <tr>
+      <td>
+        <p>gpt-4o</p>
+      </td>
+      <td>0.05 元一次</td>
+      <td>-</td>
+      <td>0.5 / 次</td>
+    </tr>
     <tr>
       <td>azure-gpt-3.5-turbo</td>
       <td>0.4 元 1 刀 (0613)</td>
