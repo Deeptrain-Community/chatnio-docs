@@ -418,6 +418,32 @@
   </tbody>
 </table>
 
+## DeepSeek 深度求索
+
+<table>
+  <thead>
+    <tr>
+      <th>模型</th>
+      <th>费率</th>
+      <th>问题 Token (点数 / 1k token)</th>
+      <th>回答 Token (点数 / 1k token)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>deepseek-chat</td>
+      <td>对齐<a href="https://platform.deepseek.com/api-docs/zh-cn/pricing">官网</a>计费</td>
+      <td>0.01</td>
+      <td>0.02</td>
+    </tr>
+    <tr>
+      <td>deepseek-coder</td>
+      <td>对齐<a href="https://platform.deepseek.com/api-docs/zh-cn/pricing">官网</a>计费</td>
+      <td>0.01</td>
+      <td>0.02</td>
+    </tr>
+  </tbody>
+
 ## DashScope 通义千问
 
 <table><thead><tr><th>模型</th><th>费率</th><th>问题 Token (点数 / 1k token)</th><th>回答 Token (点数 / 1k token)</th></tr></thead><tbody><tr><td>qwen-plus</td><td>对齐<a href="https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-thousand-questions-metering-and-billing">官网</a>计费</td><td>0.2</td><td>0.2</td></tr><tr><td>qwen-plus-net</td><td>对齐<a href="https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-thousand-questions-metering-and-billing">官网</a>计费</td><td>0.2</td><td>0.2</td></tr><tr><td>qwen-turbo</td><td>对齐<a href="https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-thousand-questions-metering-and-billing">官网</a>计费</td><td>0.08</td><td>0.08</td></tr><tr><td>qwen-turbo-net</td><td>对齐<a href="https://help.aliyun.com/zh/dashscope/developer-reference/tongyi-thousand-questions-metering-and-billing">官网</a>计费</td><td>0.08</td><td>0.08</td></tr></tbody></table>
