@@ -431,12 +431,13 @@
 | 模型                    | 费率        | 回答 Token (点数 / 次数) |
 |-----------------------|-----------|--------------------|
 | gemini-1.5-pro-latest | 1 元 200 次 | 0.05 / 次           |
+| gemini-1.5-flash      | 1 元 200 次 | 0.05 / 次           |
  | gemini-pro-vision     | 1 元 200 次 | 0.05 / 次           |
  | gemini-pro            | 1 元 200 次 | 0.05 / 次           |
 | chat-bison-001 (已废弃)  | 1 元 200 次 | 0.05 / 次           |
 
 :::info
-- **Gemini Pro Vision** 和 **Gemini 1.5 Pro Latest** 模型支持识别图片，调用格式同 **GPT-4 Vision Preview**。
+- **Gemini Pro Vision** / **Gemini 1.5 Pro Latest** / **Gemini 1.5 Flash** 模型支持识别图片，调用格式同 **GPT-4 Vision Preview**。
 - **Gemini Pro Vision** 不支持多轮对话 (**Multi Turn**) 且强制输入携带图片。
 - **Chat Bison 001** 不支持中文对话，已被 Google 废弃。
 :::
