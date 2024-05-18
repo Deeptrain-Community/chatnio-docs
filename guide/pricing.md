@@ -329,39 +329,6 @@
   </tbody>
 </table>
 
-## Moonshot 月之暗面
-
-<table>
-  <thead>
-    <tr>
-      <th>模型</th>
-      <th>费率</th>
-      <th>问题 Token (点数 / 1k token)</th>
-      <th>回答 Token (点数 / 1k token)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>moonshot-v1-8k</td>
-      <td>对齐<a href="https://platform.moonshot.cn/docs/pricing">官网</a>计费</td>
-      <td>0.12</td>
-      <td>0.12</td>
-    </tr>
-    <tr>
-      <td>moonshot-v1-32k</td>
-      <td>对齐<a href="https://platform.moonshot.cn/docs/pricing">官网</a>计费</td>
-      <td>0.24</td>
-      <td>0.24</td>
-    </tr>
-    <tr>
-      <td>moonshot-v1-128k</td>
-      <td>对齐<a href="https://platform.moonshot.cn/docs/pricing">官网</a>计费</td>
-      <td>0.6</td>
-      <td>0.6</td>
-    </tr>
-  </tbody>
-</table>
-
 :::info 模型声明
 - **glm-4v** 模型支持识别图片，调用格式同 **GPT-4 Vision Preview**。
 - 智谱将 API 格式从 V3 升级至 V4, 原 V3 模型将逐步废弃：
@@ -416,6 +383,40 @@
 > </table>
 
 :::
+
+
+## Moonshot 月之暗面
+
+<table>
+  <thead>
+    <tr>
+      <th>模型</th>
+      <th>费率</th>
+      <th>问题 Token (点数 / 1k token)</th>
+      <th>回答 Token (点数 / 1k token)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>moonshot-v1-8k</td>
+      <td>对齐<a href="https://platform.moonshot.cn/docs/pricing">官网</a>计费</td>
+      <td>0.12</td>
+      <td>0.12</td>
+    </tr>
+    <tr>
+      <td>moonshot-v1-32k</td>
+      <td>对齐<a href="https://platform.moonshot.cn/docs/pricing">官网</a>计费</td>
+      <td>0.24</td>
+      <td>0.24</td>
+    </tr>
+    <tr>
+      <td>moonshot-v1-128k</td>
+      <td>对齐<a href="https://platform.moonshot.cn/docs/pricing">官网</a>计费</td>
+      <td>0.6</td>
+      <td>0.6</td>
+    </tr>
+  </tbody>
+</table>
 
 ## DashScope 通义千问
 
