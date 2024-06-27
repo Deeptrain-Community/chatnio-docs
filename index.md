@@ -43,7 +43,7 @@ features:
   - title: 🎉 模型缓存
     details: 支持同一请求入参的缓存, 支持设置自定义缓存可能性大小 (同一入参的最大缓存结果数量, 防止多次请求返回相同结果), 支持设置缓存过期时间 (缓存结果的有效时间)。
   - title: 🌏 联网搜索
-    details: 支持 DuckDuckGo 联网搜索。 (联网搜索的简单实现, 支持全部模型 & 模型无需支持 function calling)。 <br><br> <span class="dev">开发中</span> 兼容 Google / Bing / Baidu 等搜索引擎
+    details: 支持 SearXNG 开源搜索引擎联网搜索, 支持 Google / Bing / DuckDuckGo / Yahoo / WikiPedia / Arxiv / Qwant 等数十种搜索引擎搜索, 支持安全搜索模式, 内容截断, 图片代理, 测试搜索可用性等功能。 (支持全部模型 & 模型无需支持 function calling)。
   - title: 🖥 多端支持
     details: 支持 Web / PWA / App 三端, UI 移动端适配, 支持明暗主题切换, 国际化支持 (多语言切换) <br> 支持 Windows / MacOS / Linux / Android / iOS App <br><br> <span class="pro">商业版</span> 支持 Web / PWA / App / 小程序 四端
   - title: ✔️ 站点管理
