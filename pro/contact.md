@@ -8,9 +8,9 @@
 **提示: 节点数即部署服务器的公网 IP 数量*
 
 <div class="pricing-wrapper">
-    <PricingBox price="2488" :features="['永久使用', '永久更新', '技术支持', '5 节点授权', '5 次远程部署服务']" />
-    <PricingBox price="3688" :features="['永久使用', '永久更新', '技术支持', '不限节点授权', '专属团队支持']" />
-    <PricingBox price="定制" :features="['定制功能', '定制节点数', '定制部署服务']" :custom="true" />
+    <PricingBox price="2488" :features="['技术支持', '5 节点授权', '5 次远程部署服务']" />
+    <PricingBox price="3688" :features="['优先技术支持', '不限节点授权', '10 次远程部署服务']" />
+    <PricingBox price="定制" :features="['专属技术支持', '定制模块/功能']" :custom="true" />
 </div>
 
 
