@@ -17,8 +17,8 @@
 ---
 
 <div class="pricing-wrapper">
-    <PricingBox price="2488/年" :features="['单顶级域名授权', '5节点授权', '5次远程部署服务']" />
-    <PricingBox price="4888/年" :features="['3顶级域名授权', '不限节点授权', '10次远程部署服务']" />
+    <PricingBox price="3688/年" :features="['单顶级域名授权', '5节点授权', '5次远程部署服务']" />
+    <PricingBox price="9888/年" :features="['3顶级域名授权', '不限节点授权', '10次远程部署服务']" />
     <PricingBox price="定制" :features="['专属团队支持', '定制模块/功能']" :custom="true" />
 </div>
 
