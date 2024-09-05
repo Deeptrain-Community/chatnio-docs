@@ -7,10 +7,19 @@
 ## 商业版授权定价
 **提示: 节点数即部署服务器的公网 IP 数量*
 
+:::info 🌐 顶级域名授权
+假设购买 `example.com` 域名的授权，下列域名都可以使用：
+  - **example.com** 
+  - **www.example.com**
+  - **chat.example.com**
+  - **sub.chat.example.com**
+:::
+---
+
 <div class="pricing-wrapper">
-    <PricingBox price="2488/年" :features="['技术支持', '5 节点授权', '5 次远程部署服务']" />
-    <PricingBox price="3688/年" :features="['优先技术支持', '不限节点授权', '10 次远程部署服务']" />
-    <PricingBox price="定制" :features="['专属技术支持', '定制模块/功能']" :custom="true" />
+    <PricingBox price="2488/年" :features="['单顶级域名授权', '5节点授权', '5次远程部署服务']" />
+    <PricingBox price="4888/年" :features="['3顶级域名授权', '不限节点授权', '10次远程部署服务']" />
+    <PricingBox price="定制" :features="['专属团队支持', '定制模块/功能']" :custom="true" />
 </div>
 
 
