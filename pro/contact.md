@@ -22,10 +22,11 @@
 
 <div id="contact" />
 
-### QQ 咨询 ([565902327](https://qm.qq.com/q/UMgHbArOYC))
-
-<img src="/contact-qq.jpeg" alt="QQ 二维码" style="max-height: 250px; margin-top: 15px">
-
 ### 微信咨询
 
 <img src="/contact-wechat.jpeg" alt="微信二维码" style="max-height: 250px; margin-top: 15px">
+
+
+### QQ 咨询 ([565902327](https://qm.qq.com/q/UMgHbArOYC))
+
+<img src="/contact-qq.jpeg" alt="QQ 二维码" style="max-height: 250px; margin-top: 15px">
